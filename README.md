@@ -1,6 +1,6 @@
 # npmtest-is-glob
 
-#### test coverage for  [is-glob (v3.1.0)](https://github.com/jonschlinkert/is-glob)  [![npm package](https://img.shields.io/npm/v/npmtest-is-glob.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-is-glob) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-is-glob.svg)](https://travis-ci.org/npmtest/node-npmtest-is-glob)
+#### basic test coverage for  [is-glob (v3.1.0)](https://github.com/jonschlinkert/is-glob)  [![npm package](https://img.shields.io/npm/v/npmtest-is-glob.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-is-glob) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-is-glob.svg)](https://travis-ci.org/npmtest/node-npmtest-is-glob)
 
 #### Returns `true` if the given string looks like a glob pattern or an extglob pattern. This makes it easy to create code that only uses external modules like node-glob when necessary, resulting in much faster code execution and initialization time, and a bet
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-is-glob/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-is-glob/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-is-glob/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-is-glob/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-is-glob/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-is-glob/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-is-glob/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-is-glob/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-is-glob/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-is-glob/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-is-glob/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-is-glob/build/coverage.html/index.html)
 
@@ -139,7 +139,8 @@
             "vinyl"
         ]
     },
-    "version": "3.1.0"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
